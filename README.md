@@ -4,6 +4,8 @@
 
 Just another way to help compartmentalize your go code.
 
+Requires Go 1.18+
+
 ## Why
 
 Started playing with this idea of organizing my code because I got tired of the distance between my http handler functions and their addition to the multiplexer (along with various other settings such as authorization). Just wanted everything to be bundled to make it easy to spin up new routes. Can be made to work with whatever framework you may already be using could even be used for things other than setting up http handlers.
